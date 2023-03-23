@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Azure"
+  DTS:DTSID="{0B04FB6E-794C-48C1-8F19-79DA4292EA91}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=tcp:srv-dinet-ad-tst.database.windows.net,1433;User ID=helpdesk_admin_tst;Initial Catalog=DinetADTest;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;Application Name=SSIS-HelpDesk_v2-{0B04FB6E-794C-48C1-8F19-79DA4292EA91}tcp:srv-dinet-ad-tst.database.windows.net,1433.DinetADTest.admin_dinet_;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2QDMA0Ht9E2NXKwjpPbiiwAAAAACAAAAAAADZgAAwAAAABAAAADFtWhfzEbmRbNwgkOjlP4OAAAAAASAAACgAAAAEAAAAOKTPqRNDX87pudVYkKOqdyAAAAA/7JIcBIlgoihkHsAEDw4/6qyT53Ickrb7weUd69x/Wz8PsXUa0leAbbDCXBQK/z3JOZ0Mn2O7iYi+qD7qb+ZnOt/GP37V6yolG7De5tEagsHbRCLIJzr01snklE/ROwRvraEnEyiXm7HfJnY5GOCH7o94thTg9vhHB54V8T6G0oUAAAAzxGyKHcQ98r0wA9SeGl4XKGvpak=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

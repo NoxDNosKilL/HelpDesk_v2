@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Input"
+  DTS:DTSID="{F1EC1A8D-1779-4264-9105-7E98A60E5F8E}"
+  DTS:CreationName="ODBC">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="uid=ConexionOtrs;Dsn=otrs_db_utf8;">
+      <DTS:Password
+        DTS:Name="pwd"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2QDMA0Ht9E2NXKwjpPbiiwAAAAACAAAAAAADZgAAwAAAABAAAADKZyHL696PsqYxTLrfBH2MAAAAAASAAACgAAAAEAAAAOmpTkEnQHpSoLvim0knprpwAAAAIMnsrNcXVvYSlmpL7WJroGSp/jmjtiycEYbGkOUutFfc2MOOi0Vv32b8/zMQCr5wyhaFcek1cbgojIZG+cDiLIwbwYo0PZB7ASEqXzWHQsKCd41yiK8qdliFD63ZEMBaPc/o1Ngg8YHQTNlBmNjTWBQAAABN/7NPfArDVnKiIycPTU68FQ/Nbw==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
